@@ -1,0 +1,232 @@
+.navbar{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index:2;
+}
+.navbar-brand{
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 7px;
+    font-size:14px ;
+    font-weight:bold;
+    color:gray;
+}
+.navbar{
+    padding: 0px 30px;
+}
+.nav-link{
+    color:black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size:14px;
+    font-weight: 500;
+}
+.nav-link i {
+    padding:2px;
+}
+.nav-item:hover{
+    box-shadow: 0px 0px 10px 0px #00000070;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.navbar-toggler{
+    float: right;
+    display:none ;
+    top: 35px;
+    position: sticky;
+    z-index: 5;
+}
+.jumbotron{
+    background: url(img/mac.jpg) no-repeat center;
+    background-size: cover;
+    align-items: center;
+    height:100vh;
+    padding-top: 20vh;
+}
+.ani{
+    position: relative;
+    margin-left: 40px;
+    animation: slidein 1.5s ease-in  1 forwards;
+    right: 880px;
+    color:white;
+    margin-top: 50px;
+    font-weight: 500;
+}
+@keyframes slidein{
+    from{right:850px}
+    to{right:0px}
+}
+.lead{
+    color:white;
+    opacity:0.9;
+}
+.btn-lg{
+    background-color: white;
+    opacity:0.6;
+    border-radius:0;
+    font-size:25px;
+    color:black;
+}
+.btn-lg:hover{
+    opacity:0.8;
+}
+
+
+  #about h1{
+    padding: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+  }
+
+  .card{
+      margin-bottom: 30px;
+      border: none;
+      border-radius: 0;
+  }
+  #about .card-body img{
+      height: 100px;
+    margin: 10px auto;
+    display: block;
+  }
+  #about .card-body:hover{
+    box-shadow: -1px 1px 5px 3px #100a0a66;
+  }
+  #work .container .row{
+      margin: 20px;
+  }
+ #work{
+     background-color: cadetblue;
+     color:white;
+     padding: 30px;
+     margin: 50px 0;
+ }
+ #work img{
+     width: 100%;
+     height: auto;
+ }
+ #work a{
+     color:white;
+     font-weight: bold;
+ }
+ #work a:hover{
+     color:rgb(9, 14, 65);
+ }
+ .card-footer{
+     background-color: transparent;
+ }
+ #team .card-body img{
+     width: 250PX;
+     height: 300PX;
+ }
+ #team .card-title,button{
+     padding: 20px 0px 0 10px; 
+ }
+ #team .card-text,button{
+    padding: 0px 10px;  
+}
+ #team .btn{
+     width: 100%;
+     background-color: cadetblue;
+     color: white;
+     opacity: 1;
+     font-size: 15px;
+ }
+ #team .card{
+     background-color: rgb(219, 229, 230);
+ }
+
+#team h1{
+    font-weight: 300;
+}
+.pro-bar .fa{
+    margin-right: 20px;
+}
+.pro-bar p {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    letter-spacing: 2px;
+}
+.progress{
+    font-size: 1rem;
+    background-color: #e9ecef;
+    border-radius: 0;
+    height: 20px;
+}
+.progress-bar{
+    background-color: cadetblue;
+}
+#skills{
+    padding: 100px;
+    background-color: #7faaaa57;
+
+}
+#contact{
+    padding:50px;
+}
+#contact .container .row .col-md-6 p i{
+    font-weight: 200;
+    font-size: 30px;
+    margin-right:20px;
+}
+.mail input,textarea{
+    width:100%;
+    margin:10px 0;
+    padding: 10px;
+}
+.mail .btn-send{
+    width:auto;
+    margin:10px 0;
+    padding: 10px;
+    border-radius:0;
+}
+.loc{
+    padding: 50px;
+}
+.mail{
+    border-left: 2px solid cadetblue;
+}
+#contact h5{
+    font-weight: 400;
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+      margin-left: 0;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .btn-lg{
+        font-size:15px;
+    }
+    #work{
+        padding: 50px 10px;
+    }
+    #work h1{
+        font-size: 33px;
+        font-weight: 400;
+    }
+    #skills{
+        padding:50px 10px;
+    }
+    .loc{
+        padding: 25px;
+    }
+    #contact{
+        padding: 50px 10px;
+    }
+    
+  }
+  footer{
+      background-color: rgb(31, 73, 75);
+      color:white;
+      margin: 0;
+      padding: 20px;
+      bottom: 0;
+  }
